@@ -1,0 +1,1 @@
+$sql = "OPTIMIZE TABLE `signup`;";
