@@ -6,3 +6,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+// still working on conecting it with Mysql database with the help or php 
