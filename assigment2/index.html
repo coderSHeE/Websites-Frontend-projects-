@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KiderPass</title>
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+
+  <!------------------------------logIn starts----------------------------------------->
+
+
+
+
+   <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+
+    <div class="container">
+      <input class="fname" type="text" name="name" placeholder="Full name" />
+              <input type="text" name="Email" placeholder="Email" />
+              <input type="text" name="number" placeholder="Phone number" /> <!--can be made number type-->
+              <input type="text" name="name" placeholder="EmployeeId" />    <!--can be made with type = "number"-->
+              <input type="text" name="dob" placeholder="Date of birth" /> <!----it should me type = date ;-->
+             
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="submitbtn">Submit</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<!-------------------------------------------------------login ends-------------------------------------->
+
+
+
+
+
+<!---------------------------------------------------sign up starts -------------------------------------->
+
+
+   <!-- Button to open the modal login form -->
+   <button onclick="document.getElementById('id01').style.display='block'">Sign up</button>
+
+   <!-- The Modal -->
+   <div id="id01" class="modal">
+     <span onclick="document.getElementById('id01').style.display='none'"
+   class="close" title="Close Modal">&times;</span>
+   
+     <!-- Modal Content -->
+     <form class="modal-content animate" action="/action_page.php">
+      
+   
+       <div class="container">
+        <div>
+          <input class="fname" type="text" name="name" placeholder="Full name" />
+          <input type="text" name="name" placeholder="Email" />
+          <input type="text" name="name" placeholder="interset" />
+          <input type="text" name="name" placeholder="make Id" />
+        </div>
+        <span>Message</span>
+        <div>
+       </div>
+   
+       <div class="container" style="background-color:#f1f1f1">
+         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+         <span class="psw">Forgot <a href="#">password?</a></span>
+       </div>
+     </form>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------------------------sign up ends--------------------------------------->
+
+<script src="main.js"></script>
+  
+</body>
+</html>
