@@ -5,14 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KiderPass</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">                                            <!--connecting stylesheet on top ,is one of the best practice for a developer , 
+                                                                                                        it helps to load the site faster -->
 
 
 
 </head>
 <body>
 
-  <!------------------------------logIn starts----------------------------------------->
+  <!----------------------------------------------------------------------logIn starts----------------------------------------------------------------------->
 
 
 
@@ -31,9 +32,9 @@ class="close" title="Close Modal">&times;</span>
     <div class="container">
       <input class="fname" type="text" name="name" placeholder="Full name" />
               <input type="text" name="Email" placeholder="Email" />
-              <input type="text" name="number" placeholder="Phone number" /> <!--can be made number type-->
-              <input type="text" name="name" placeholder="EmployeeId" />    <!--can be made with type = "number"-->
-              <input type="text" name="dob" placeholder="Date of birth" /> <!----it should me type = date ;-->
+              <input type="text" name="number" placeholder="Phone number" />                                  <!--can be made number type-->
+              <input type="text" name="name" placeholder="EmployeeId" />                                    <!--can be made with type = "number"-->
+              <input type="text" name="dob" placeholder="Date of birth" />                                     <!----it should me type = date ;-->
              
     </div>
 
@@ -44,19 +45,21 @@ class="close" title="Close Modal">&times;</span>
   </form>
 </div>
 
-<!-------------------------------------------------------login ends-------------------------------------->
+<!-----------------------------------------------------------------------------login ends----------------------------------------------------------------------->
 
 
 
 
 
-<!---------------------------------------------------sign up starts -------------------------------------->
+<!-------------------------------------------------------------------------------sign up starts ---------------------------------------------------------------->
 
 
-   <!-- Button to open the modal login form -->
+   <!-- Button to open the modal sign up form -->
+  
    <button onclick="document.getElementById('id01').style.display='block'">Sign up</button>
 
-   <!-- The Modal -->
+   <!---- The Modal -->
+  
    <div id="id01" class="modal">
      <span onclick="document.getElementById('id01').style.display='none'"
    class="close" title="Close Modal">&times;</span>
